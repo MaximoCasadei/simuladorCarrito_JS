@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Simulador Carrito de compras</title>
+</head>
+<body>
+
+
+<div id="div-contenedor">
+    <div id="div-bici">
+        <h2 class="h2">bici</h2>
+        <img src="./img/bici.jpg" alt="" class="img">
+        <h3>$70.000</h3>
+        <button class="btn">AGREGAR AL CARRITO</button>
+    </div>
+    <div id="div-mate">
+        <h2>mate</h2>
+        <img src="./img/mate.jpeg" alt="" class="img">
+        <h3>$6.000</h3>
+        <button class="btn2">AGREGAR AL CARRITO</button>
+    </div>
+    <div id="div-mouse">
+        <h2>mouse</h2>
+        <img src="./img/mouse.jfif" alt="" class="img">
+        <h3>$12.000</h3>
+        <button class="btn3">AGREGAR AL CARRITO</button>
+    </div>
+</div>
+    <section id="content-carrito">
+        <div id="div-carrito">
+            <h1>CARRITO</h1>
+            <div class="div-carrito-productos">
+                <h2 id="h2-cantidad-bici" class="h2Cantidad">0</h2>
+                <h2 id="h2-cantidad-mate" class="h2Cantidad">0</h2>
+                <h2 id="h2-cantidad-mouse" class="h2Cantidad">0</h2>
+            </div> 
+            <div class="div-carrito-productos">
+                <h2>BICICLETAS</h2>
+                <h2>MATES</h2>
+                <h2>MOUSE</h2>
+            </div> 
+            <div class="div-carrito-productos">
+                <h2 id="bici-carrito"></h2>
+                <h2 id="mate-carrito"></h2>
+                <h2 id="mouse-carrito"></h2>
+            </div> 
+        </div>
+        <div id="div-total">
+            <h2>Total de productos</h2>
+            <h2 id="h2-productos-total"></h2>
+            <h2>Total</h2>
+            <h2 id="h2-total"></h2>
+        </div>
+          
+    </section>
+    <script src="index.js"></script>
+</body> 
+</html>
